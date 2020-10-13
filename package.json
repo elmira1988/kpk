@@ -1,0 +1,38 @@
+{
+  "name": "kpk-new.toltekplus.ru",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": " cross-env NODE_ENV=development webpack --mode development",
+    "build": " cross-env NODE_ENV=production  webpack --mode production",
+    "watch": " cross-env NODE_ENV=development  webpack --mode development --watch",
+    "start": " cross-env NODE_ENV=development  webpack-dev-server --mode development --open"
+  },
+  "author": "Elmira Litvinova",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^4.5.2",
+    "inputmask": "^5.0.5",
+    "jquery": "^3.5.1",
+    "parsleyjs": "^2.9.2",
+    "popper.js": "^1.16.1",
+    "select2": "^4.0.13",
+    "smartwizard": "^5.1.1"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.2",
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.1.0",
+    "mini-css-extract-plugin": "^0.11.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "style-loader": "^1.2.1",
+    "terser-webpack-plugin": "^4.2.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
